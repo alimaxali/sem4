@@ -1,5 +1,7 @@
 clear
+cd
 
+termux-open payload5/.tool/ali.png
 #colors
 g='\033[1;32m'
 p='\033[1;35m'
