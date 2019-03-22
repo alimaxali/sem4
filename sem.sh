@@ -100,7 +100,7 @@ echo '          $$$$                     \/       '
 sleep 0.1
 echo -e "               $bluo p $green a $reset y $purple l $cyan o $yellow a $green d"
 #echo -e "$red"
-echo -e "                          $cyan ------>(ali)<------"
+echo -e "                      $cyan ------>(0909-ali)<------"
 chat2
 echo -e "$green+________________________________________________________+"
 echo -e "$cyan|  [1] metasploit ⚔️|  $blue  [2] nmap 🌎| $purple  [3] dos attack ⛔ |             "
