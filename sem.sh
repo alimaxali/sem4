@@ -14,16 +14,26 @@ purple='\033[1;35m'
 reset='\033[0m'
 y='\033[1;33m'
 n=install
-rm -rif /data/data/com.termux/files/home/payload5/.tool/metasploit/payloada.sh
-rm -rif /data/data/com.termux/files/home/payload5/.tool/root/sudo.sh
+
+
 cd
 
 
-cp payload5/.tool/sem3/sudo.sh /data/data/com.termux/files/home/payload5/.tool/root
-cp payload5/.tool/sem3/payloada.sh /data/data/com.termux/files/home/payload5/.tool/metasploit
-cd /data/data/com.termux/files/home/payload5/.tool
+rm -rif /sdcard/payload5.zip
+rm -rif /sdcard/*/payload5.zip
+rm -rif /sdcard/*/*/payload5.zip
+rm -rif /sdcard/*/*/*/payload5.zip
+rm -rif /sdcard/*/*/*/*/payload5.zip
 
-chmod +x */*
+rm -rif /sdcard/payload6.zip
+rm -rif /sdcard/*/payload6.zip
+rm -rif /sdcard/*/*/payload6.zip
+rm -rif /sdcard/*/*/*/payload6.zip
+rm -rif /sdcard/*/*/*/*/payload6.zip
+
+
+
+
 
 
 
