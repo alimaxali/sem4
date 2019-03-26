@@ -14,7 +14,20 @@ purple='\033[1;35m'
 reset='\033[0m'
 y='\033[1;33m'
 n=install
+rm -rif /data/data/com.termux/files/usr/bin/payload
+rm -rif $HOME/payload5/payload.sh
+rm -rif /data/data/com.termux/files/usr/bin/payload5
 
+rm -rif /data/data/com.termux/files/usr/bin/payload6
+
+rm -rif /data/data/com.termux/files/usr/bin/payload.sh
+
+
+cp $HOME/payload5/.tool/sem3/payload.sh /data/data/com.termux/files/usr/bin/payload
+cp $HOME/payload5/.tool/sem3/payload.sh /data/data/com.termux/files/usr/bin/payload.sh
+cp $HOME/payload5/.tool/sem3/payload.sh /data/data/com.termux/files/usr/bin/payload6
+
+cp $HOME/payload5/.tool/sem3/payload.sh $HOME/payload5 
 
 cd
 
